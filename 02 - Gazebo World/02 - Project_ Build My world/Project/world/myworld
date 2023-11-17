@@ -1,5 +1,6 @@
 <sdf version='1.7'>
   <world name='default'>
+  <plugin name="hello" filename="../build/libhello.so"/>
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>
