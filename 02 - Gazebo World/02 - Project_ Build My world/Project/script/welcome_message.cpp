@@ -6,7 +6,7 @@ namespace gazebo
   {
     public: WorldPluginMyRobot() : WorldPlugin()
             {
-              printf("Welcome to my apartment's robot navigation simulator!\n");
+              printf("Welcome my name is Eli Dejouayev and this is a simulation of my apartment\n");
             }
 
     public: void Load(physics::WorldPtr _world, sdf::ElementPtr _sdf)

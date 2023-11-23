@@ -1,3 +1,0 @@
-/home/eli/pCloudDrive/Eli/Courses/Udacity/Robotic Software Engineer/02 - Gazebo World/02 - Project_ Build My world/Project/build/CMakeFiles/rebuild_cache.dir
-/home/eli/pCloudDrive/Eli/Courses/Udacity/Robotic Software Engineer/02 - Gazebo World/02 - Project_ Build My world/Project/build/CMakeFiles/edit_cache.dir
-/home/eli/pCloudDrive/Eli/Courses/Udacity/Robotic Software Engineer/02 - Gazebo World/02 - Project_ Build My world/Project/build/CMakeFiles/hello.dir
