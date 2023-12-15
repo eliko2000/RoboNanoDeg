@@ -6,3 +6,11 @@
 02 - Gazebo World/02 - Project_ Build My world/Project/build/
 
 catkin_ws/build/
+
+workspace/catkin_ws/devel/
+
+workspace/catkin_ws/build/
+
+workspace/catkin_ws/
+
+catkin_ws/
