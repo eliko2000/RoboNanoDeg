@@ -28,7 +28,7 @@ void process_image_callback(const sensor_msgs::Image img)
     uint32_t image_width = img.width;
     uint32_t image_height = img.height;
     uint32_t pixel_index=0;
-    uint32_t third_width=image_width/3;
+    uint32_t third_width=img.step/3;
     int left_count=0;
     int right_count=0;
     int center_count=0;
@@ -42,9 +42,9 @@ void process_image_callback(const sensor_msgs::Image img)
     const std::vector<uint8_t>& image_data = img.data;
 
     // Loop through each pixel in width-first and then height order
-    for (int y = 0; y < image_height; ++y)
+    for (int y = 0; y < image_height; y++)
     {
-        for (int x = 0; x < image_width; ++x)
+        for (int x = 0; x < img.step; x++)
         {
             // Calculate the index of the current pixel in the image data array
             int pixel_index = (y * image_width + x)*3;
